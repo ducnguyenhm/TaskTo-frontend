@@ -1,3 +1,24 @@
+# Build a Complete Task Todo List Management
+This is the project to build a Task Todo List Management that allow you manange tasks for your own or team works.
+
+## Technology Stack
+
+- **Frontend**: Next.js, Tailwind CSS, Redux Toolkit, Redux Toolkit Query, Material UI Data Grid
+- **Backend**: Node.js with Express, Prisma (PostgreSQL ORM)
+- **Database**: PostgreSQL, managed with PgAdmin
+- **Cloud**: AWS EC2, AWS RDS, AWS API Gateway, AWS Amplify, AWS S3, AWS Lambda, AWS Cognito
+
+## Getting Started
+
+### Prerequisites
+
+Ensure you have these tools installed:
+
+- Git
+- Node.js
+- npm (Node Package Manager)
+- PostgreSQL ([download](https://www.postgresql.org/download/))
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
