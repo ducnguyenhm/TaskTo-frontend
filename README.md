@@ -1,57 +1,36 @@
-# Build a Complete Task Todo List Management
-This is the project to build a Task Todo List Management that allow you manange tasks for your own or team works.
+# Real-Time Chat App
 
-## Technology Stack
+This project is a real-time chat application built with React, Express, Socket.io, and integrated with the ChatGPT API. It delivers an interactive messaging experience with instant communication between users, supporting both one-on-one and group chats, and features AI-powered assistance.
 
-- **Frontend**: Next.js, Tailwind CSS, Redux Toolkit, Redux Toolkit Query, Material UI Data Grid
-- **Backend**: Node.js with Express, Prisma (PostgreSQL ORM)
-- **Database**: PostgreSQL, managed with PgAdmin
-- **Cloud**: AWS EC2, AWS RDS, AWS API Gateway, AWS Amplify, AWS S3, AWS Lambda, AWS Cognito
+## Features
+
+- **Real-Time Messaging:** Instant message delivery powered by Socket.io.
+- **User Authentication:** Secure login and user management.
+- **Multiple Chat Rooms:** Create or join various chat rooms to engage in topic-based conversations.
+- **ChatGPT Integration:** Leverage OpenAI's ChatGPT API to provide AI-powered responses and automated conversation assistance.
+- **Responsive Design:** Optimized for both desktop and mobile experiences.
+- **Interactive UI:** A modern and intuitive interface built with React.
+- **RESTful API:** Robust server-side logic using Express.
+
+## Technologies Used
+
+- **React:** For building the dynamic front-end interface.
+- **Express:** For creating a scalable and maintainable back-end server.
+- **Socket.io:** For handling real-time, bidirectional communication.
+- **Node.js:** JavaScript runtime environment for running the server.
+- **ChatGPT API:** To integrate AI-powered chat responses.
+- **CSS/SCSS:** For styling and ensuring responsive design.
 
 ## Getting Started
 
 ### Prerequisites
 
-Ensure you have these tools installed:
+- [Node.js](https://nodejs.org/) (v14 or above)
+- npm or yarn
 
-- Git
-- Node.js
-- npm (Node Package Manager)
-- PostgreSQL ([download](https://www.postgresql.org/download/))
+### Installation
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/yourusername/real-time-chat-app.git
+   cd real-time-chat-app
